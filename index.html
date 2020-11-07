@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Application</title>
+      <link rel="stylesheet" href="./styles/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="generate()">
+      <header>
+            <h1>Sorting Visualizer</h1>
+      </header>
+
+      <section id="section-1">
+            <div class="left-side">
+                  <button onclick="generate()">Generate Array</button>
+            </div>
+            <div class="right-side">
+                  <button onclick="bubble_sort()"> Bubble Sort </button>
+                  <button> Selection Sort </button>
+                  <button> Merge Sort </button>
+            </div>
+      </section>
+
+      <section>
+            <div id="array-container" style="flex-direction: row;">
+
+            </div>
+      </section>
+
+      <footer>
+            <a href="https://www.linkedin.com/in/chidambaram-k-1a9236189/" class="fa fa-linkedin"></a>
+            <a href="https://www.facebook.com/ajaysreenivasan.sreenivasan/" class="fa fa-facebook"></a>
+            <a href="https://github.com/Ajay-Chidambaram" class="fa fa-github"></a>
+            <div class="bottom-side">
+                  <p>Designed by AJ</p>
+            </div>
+      </footer>
+
+      <script src="./scripts/main.js"></script>
+      <script src="./scripts/Bubble_Sorting.js"></script>
+</body>
+
+</html>
